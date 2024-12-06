@@ -1,0 +1,12 @@
+!PRINTTHERMOCHEM
+%cpcm
+epsilon 7 # Dielectric constant
+refrac 1.85341 # Refractive index
+end
+%GEOM
+         INHESSNAME "CURCUMIN-OPT-FREQ-TS2-WB97M-V-6-311+G-D-298.hess"
+END
+% FREQ TEMP 298.15, 363.15
+END
+* XYZFILE 0 2 CURCUMIN-OPT-FREQ-TS2-WB97M-V-6-311+G-D-298.xyz
+
